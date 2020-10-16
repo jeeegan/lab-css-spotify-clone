@@ -6,3 +6,43 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+  margin: 0 100px;
+}
+
+.navbar {
+  position: fixed;
+  background-color: #FFF;
+  width: 100%;
+}
+
+.navbar img {
+  height: 50px;
+  float: left;
+}
+
+.navbar ul {
+  float: right;
+  margin-right: 400px;
+  list-style-type: none;
+}
+
+.splash {
+  background-image: url("/images/landing.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+.whats-on-container {
+  display: inline;
+}
+
+.whats-on-container img {
+  width: 50px;
+}
+
+.whats-on-boxes {
+  width: 30%;
+}
